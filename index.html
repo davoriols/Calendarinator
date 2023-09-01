@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calendarinator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script type="module" src="javascript/index.js"></script>
+    </head>
+    <body>
+        <div class="title">
+            <h1>Calendarinator</h1>
+        </div>
+        <div class="daysFrame">
+            <!-- Labels for each day -->
+            <label class="header" >Dia A</label>
+            <label class="header" >Dia B</label>
+            <label class="header" >Dia C</label>
+            <label class="header" >Dia D</label>
+            <label class="header" >Dia E</label>
+            <label class="header" >Dia F</label>
+            <label class="header" >Dia G</label>
+            
+            <!-- input fields for column 1 -->
+            <input type="text" class="dayInput A">
+            <input type="text" class="dayInput B">
+            <input type="text" class="dayInput C">
+            <input type="text" class="dayInput D">
+            <input type="text" class="dayInput E">
+            <input type="text" class="dayInput F">
+            <input type="text" class="dayInput G">
+            
+            <!-- input fields for column 2 -->
+            <input type="text" class="dayInput A">
+            <input type="text" class="dayInput B">
+            <input type="text" class="dayInput C">
+            <input type="text" class="dayInput D">
+            <input type="text" class="dayInput E">
+            <input type="text" class="dayInput F">
+            <input type="text" class="dayInput G">
+                
+            <!-- input fields for column 3 -->
+            <input type="text" class="dayInput A">
+            <input type="text" class="dayInput B">
+            <input type="text" class="dayInput C">
+            <input type="text" class="dayInput D">
+            <input type="text" class="dayInput E">
+            <input type="text" class="dayInput F">
+            <input type="text" class="dayInput G">
+
+            <!-- input fields for column 4-->
+            <input type="text" class="dayInput A">
+            <input type="text" class="dayInput B">
+            <input type="text" class="dayInput C">
+            <input type="text" class="dayInput D">
+            <input type="text" class="dayInput E">
+            <input type="text" class="dayInput F">
+            <input type="text" class="dayInput G">
+                
+            <!-- input fields for column 5 -->
+            <input type="text" class="dayInput A">
+            <input type="text" class="dayInput B">
+            <input type="text" class="dayInput C">
+            <input type="text" class="dayInput D">
+            <input type="text" class="dayInput E">
+            <input type="text" class="dayInput F">
+            <input type="text" class="dayInput G">
+        </div>
+        <div class="preferences">
+            <div class="encapsulator">
+                <div class="encapsulatorPatios">
+                    <input type="checkbox" id="patios" name="Incluir patios / homerooms" value="1">
+                    <label for="patios">Incluir patios / homerooms</label>
+                </div>
+            </div>
+            
+            <div class="encapsulator">
+                <div class="encapsulatorDias">
+                    <input type="checkbox" id="dias" name="Incluir nombres de los dias" value="1">
+                    <label for="dias" >Incluir nombres de los dias</label>
+                </div>
+            </div>
+            <button id="button" type="button" >Crear</button>
+        </div>
+        <div class="credit">
+            <h3>By David O</h3>
+        </div>
+    </body>
+</html>
