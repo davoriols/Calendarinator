@@ -14,7 +14,7 @@ function main() {
     //starting date
     let d = new Date("9/4/2023");
 
-    for (let i = 0; i < 300; i++) {
+    for (let i = 0; i < 293; i++) {
 
         let dateString = (d.getMonth() + 1) + "/" + d.getDate() + "/" + d.getFullYear();
         
